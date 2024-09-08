@@ -22,15 +22,15 @@ function App() {
         <Navbar />
         
         <Routes>
-          <Route path='/home' element={<Header />}/>
-          <Route path='/formresponse' element={<SuccessPage />}/>
-          <Route path='/aboutus'element={<MainContent />}/>
+          <Route path='/Loanproject' element={<Header />}/>
+          <Route path='/Loanproject/formresponse' element={<SuccessPage />}/>
+          <Route path='/Loanproject/aboutus'element={<MainContent />}/>
 
-          <Route path='/services' element={<Our_service />}/>
-          <Route path='/services/personalloan' element={<Personalloan />}/>
-          <Route path='/services/homeloan' element={<Homeloan />}/>
-          <Route path='/services/businessloan' element={<Business />}/>
-          <Route path='/services/mortageloan' element={<Mortageloan />}/>
+          <Route path='/Loanproject/services' element={<Our_service />}/>
+          <Route path='/Loanproject/services/personalloan' element={<Personalloan />}/>
+          <Route path='/Loanproject/services/homeloan' element={<Homeloan />}/>
+          <Route path='/Loanproject/services/businessloan' element={<Business />}/>
+          <Route path='/Loanproject/services/mortageloan' element={<Mortageloan />}/>
 
         </Routes>
       </BrowserRouter>

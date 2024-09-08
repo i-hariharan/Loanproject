@@ -38,7 +38,7 @@ function SuccessPage() {
             </p>
           </div>
 
-          <Link to="/home">
+          <Link to="/Loanproject">
             <button className="mt-6 bg-[#E1D060]  px-6 py-2 rounded-lg hover:bg-yellow-600 focus:outline-none">
               Go to home
             </button>

@@ -19,22 +19,22 @@ function Navbar() {
             </div>
             {/* links */}
             <ul className='flex md:space-x-[40px] text-lg font-semibold max-sm:hidden'>
-                <Link to='/home'>
+                <Link to='/Loanproject'>
                   <li>Home</li>
                 </Link>
-                <Link to='/aboutus'>
+                <Link to='/Loanproject/aboutus'>
                   <li>About</li>
                 </Link>
                 <li>Contact</li>
                 <li className='dropdown'>
-                    <Link to='/services'>
+                    <Link to='/Loanproject/services'>
                       <button>Services</button>
                     </Link>
                     <div className='content'>
-                        <Link to='/services/homeloan'><p>Home Loan</p></Link>
-                        <Link to='/services/businessloan'><p>Business Loan</p></Link>
-                        <Link to='/services/personalloan'><p>Personal Loan</p></Link>
-                        <Link to='/services/mortageloan'><p>Mortage Loan</p></Link>
+                        <Link to='/Loanproject/services/homeloan'><p>Home Loan</p></Link>
+                        <Link to='/Loanproject/services/businessloan'><p>Business Loan</p></Link>
+                        <Link to='/Loanproject/services/personalloan'><p>Personal Loan</p></Link>
+                        <Link to='/Loanproject/services/mortageloan'><p>Mortage Loan</p></Link>
                     </div>
                 </li>
             </ul>

@@ -10,25 +10,25 @@ function MobileNavbar({isOpen}) {
   return (
     <div>
         {isOpen&&(
-            <ul className='bg-gray-900/50 bg-transparent text-white mobilenavbar md:hidden text-lg font-semibold  ' data-aos="fade-left">
-           <Link to='/home'>
+            <ul className='bg-gray-900/50  text-white mobilenavbar md:hidden text-lg font-semibold  ' data-aos="fade-left">
+           <Link to='/Loanproject'>
              <li>Home</li>
            </Link>
-            <Link to='/aboutus'>
+            <Link to='/Loanproject/aboutus'>
               <li>About</li>
             </Link>
             <Link to='#'>
               <li>Contact</li>
             </Link>
             <li className='mobileDropdown'>
-                <Link to='/services'>
+                <Link to='/Loanproject/services'>
                   <button>Services</button>
                 </Link>
                 <div className='mobileContent'>
-                    <Link to='/services/homeloan'><p>Home Loan</p></Link>
-                    <Link to='/services/businessloan'><p>Business Loan</p></Link>
-                    <Link to='/services/personalloan'><p>Personal Loan</p></Link>
-                    <Link to='/services/mortageloan'><p>Mortage Loan</p></Link>
+                    <Link to='/Loanproject/services/homeloan'><p>Home Loan</p></Link>
+                    <Link to='/Loanproject/services/businessloan'><p>Business Loan</p></Link>
+                    <Link to='/Loanproject/services/personalloan'><p>Personal Loan</p></Link>
+                    <Link to='/Loanproject/services/mortageloan'><p>Mortage Loan</p></Link>
                 </div>
             </li>
         </ul>

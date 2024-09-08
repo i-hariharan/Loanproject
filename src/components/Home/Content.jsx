@@ -61,7 +61,7 @@ export default function Content() {
                 required
               />
             </div>
-            <Link to='/formresponse'>
+            <Link to='/Loanproject/formresponse'>
               <button className="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-full">
                 Submit
               </button>
