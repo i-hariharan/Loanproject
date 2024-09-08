@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 export default function Header() {
   return (
-    <header className="flex flex-col h-full w-full mx-auto max-md:pb-16">
+    <header className="flex flex-col h-full w-full mx-auto bg-blue-900 max-md:pb-5">
 
       <Content />
 
