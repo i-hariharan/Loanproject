@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import business from "../../assets/images/business.jpg";
 import Slider from "react-slick";
 import Navbar from '../Services/Navbar';
+import "./Maincontent.css"
 
 function MainContent() {
     const settings = {
@@ -57,7 +58,7 @@ function MainContent() {
   return (
     <div className=' text-white bg-blue-900'>
         {/* top-Content */}
-        <div className='flex mb-[30px] md:p-4 md:px-[30px] max-sm:p-2 max-sm:w-full max-sm:flex-col-reverse lg:space-x-16'>
+        <div className='flex mb-[30px] md:p-4 md:px-[30px] lg:justify-between max-sm:p-2 max-sm:w-full max-sm:flex-col-reverse lg:space-x-16'>
             <div className='flex flex-col  justify-center max-sm:w-full max-sm:mt-[20px]'>
                 <h1 className='text-4xl font-bold max-sm:text-xl'>About Us</h1>
                 <p className='text-lg font-bold max-sm:text-md max-sm:font-thin'>Committed to becoming a top-class digitally enabled 
@@ -89,7 +90,7 @@ function MainContent() {
         </div>
        
         
-        <div className='bg-blue-900 text-center py-[20px]'>
+        <div className='bg-white text-center py-[20px]'>
             <div className='w-[95%] mx-auto space-x-2  '>       
            <Slider {...settings} >
             { yearData.map((data)=>(
