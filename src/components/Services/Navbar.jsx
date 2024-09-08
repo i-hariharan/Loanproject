@@ -31,10 +31,10 @@ function Navbar() {
                       <button>Services</button>
                     </Link>
                     <div className='content'>
-                        <p>Home Loan</p>
-                        <p>Business Loan</p>
-                        <p>Personal Loan</p>
-                        <p>Mortage Loan</p>
+                        <Link to='/services/homeloan'><p>Home Loan</p></Link>
+                        <Link to='/services/businessloan'><p>Business Loan</p></Link>
+                        <Link to='/services/personalloan'><p>Personal Loan</p></Link>
+                        <Link to='/services/mortageloan'><p>Mortage Loan</p></Link>
                     </div>
                 </li>
             </ul>

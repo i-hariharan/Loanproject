@@ -56,10 +56,6 @@ function MainContent() {
       ]
   return (
     <div className=' text-white bg-blue-900'>
-    
-        {/**navbar */}
-        <Navbar />
-
         {/* top-Content */}
         <div className='flex mb-[30px] md:p-4 md:px-[30px] max-sm:p-2 max-sm:w-full max-sm:flex-col-reverse lg:space-x-16'>
             <div className='flex flex-col  justify-center max-sm:w-full max-sm:mt-[20px]'>
